@@ -37,3 +37,19 @@ Clone the repository and enter the directory:
 ```bash
 git clone [https://github.com/software-theorem/VWR-Codec.git](https://github.com/software-theorem/VWR-Codec.git)
 cd VWR-Codec
+
+---
+
+## ⚙️ 2. Environment Setup
+
+Since different algorithms may have different dependencies, it is recommended to install them sequentially:
+
+* **`codec_attack/requirements.txt`**: Core dependencies for the attack framework.
+* **`algorithms/VideoMark-main/requirements.txt`**: Specific dependencies for algorithms like VideoMark.
+
+```bash
+# Install core attack dependencies
+pip install -r codec_attack/requirements.txt
+
+# Install specific algorithm dependencies (Example: VideoMark)
+pip install -r algorithms/VideoMark-main/requirements.txt
