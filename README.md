@@ -37,10 +37,9 @@ Clone the repository and enter the directory:
 ```bash
 git clone [https://github.com/software-theorem/VWR-Codec.git](https://github.com/software-theorem/VWR-Codec.git)
 cd VWR-Codec
+```
 
----
-
-## ⚙️ 2. Environment Setup
+### 2. Environment Setup
 
 Since different algorithms may have different dependencies, it is recommended to install them sequentially:
 
