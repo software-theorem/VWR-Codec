@@ -52,3 +52,23 @@ pip install -r codec_attack/requirements.txt
 
 # Install specific algorithm dependencies (Example: VideoMark)
 pip install -r algorithms/VideoMark-main/requirements.txt
+```
+
+### 3. Running an Attack Pipeline
+
+To test the robustness of watermarked videos, use the following command to automate the process:
+
+* **`run_all.sh`**: The main execution script for the attack pipeline.
+
+**Parameters:**
+
+* `--input_dir`: Path to the watermarked videos.
+* `--output_dir`: Path for the attacked results.
+
+```bash
+# Enter the attack module directory
+cd codec_attack
+
+# Execute the attack pipeline
+bash run_all.sh --input_dir ../data/watermarked_videos --output_dir ../data/attack_results
+
